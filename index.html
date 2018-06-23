@@ -8,11 +8,13 @@
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <!--esto nos ayuda a enlazar con la libreria de iconos--->
   <link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+  <!--se agrega css-->
+  <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 <body>
     <!--aqui v la barra de navegacion-->
-  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <a href="index.html" class="navbar-brand">company-logo</a>
   <button class="navbar-toggler" data-toggle="collapse"data-target="#navegacion">
     <span class="navbar-toggler-icon" data-toggle></span>
@@ -37,6 +39,23 @@
     </ul>
   </div>
   </nav>
+  <div class="container">
+    <div  class="row">
+      <div class="col-md-4">
+      <h1>featured Product</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+  <div class="btn-group btn-group-lg">
+    <button class="btn btn-info">Buy Now!</button>
+    <button class="btn btn default">Free Trial</button>
+  </div>
+  <p><a href="#">Read more about the product</a></p>
+      </div>
+      <div class="col-md-8 d-none d-sm-block">
+        <img src="img/walker.png" alt="" width="600px" height="">
+       </div>
+    </div>
+    <hr>
+  </div>
   <!--se agrega la libreria de jquery para que bootstrap.js funcione-->
 <script src="bower_components/jquery/dist/jquery.js"></script>
   <!--se agrega la libreria de bootstrapjs-->
