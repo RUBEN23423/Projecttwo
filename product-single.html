@@ -35,68 +35,67 @@
   </ul>
   </div>
   </nav>
-    <div class="row">
-    <div class="col-md-4">
-      <br><br>
-      <h3>Featured product</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
-  <div class="btn-group btn-group-lg">
-      <button class="btn btn-info">Buy Now!  </button>
-      <button class="btn btn-default">Free Trail  </button>
+<div class="row">
+  <nav aria-label"breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Products</a></li>
+    </ol>
+  </nav>
+</div>
+<div class="row">
+    <h1>Products. <small class="text-muted"> We build amazing amozing Stuff
+    </small>
+    </h1>
   </div>
-    <p> <br> <a href="#">Read more about product</a></p>
+  <hr>
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Product One</h2>
+      <p>This is an awesome product one description</p>
     </div>
-  <div class="col-md-8 d-none d-sm-block">
-      <img src="img/walker.png" alt="" width="600px" height="">
+    <div class="col-md-6">
+      <div class="btn-group d-flex justify-content-end">
+        <button class="button btn btn-primary">Buy now</button>
+        <button class="button btn btn-secondary">Free trial</button>
+      </div>
     </div>
+  </div>
+  <div class="row">
+
+    <div class="col-md-12">
+      <div class="carousel " id="carousel-product"   data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/large1.jpg" alt="" class="d-blockw-100">
+          </div>
+            <!-- /.carousel-fulanito 2 -->
+          <div class="carousel-item ">
+              <img src="img/large2.jpg" alt="">
+          </div>
+            <!-- /.carousel-    fulanito 3 -->
+          <div class="carousel-item">
+              <img src="img/large3.jpg" alt="">
+          </div>
+      </div>
+      <a href="#carousel-product" class="carousel-control-prev" data-slide="prev" role="button">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#carousel-product" class="carousel-control-next" data-slide="next" role="button">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
     </div>
-    <br>
-    <hr>
+  </div>
+  <hr>
+  
+ <!-- /.footer -->
+</div>
+
+
+
     <div class="row">
-    <div class=" col-md-8">
-        <h3>The company</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio saepe deserunt, similique, repudiandae nostrum quia incidunt fugit recusandae, maxime, sequi in. Deleniti eius soluta fugiat beatae atque praesentium et, sit quos iste veritatis voluptatibus dolorem ullam quasi rem, hic nihil?</p>
-      </div>
-      <div class="col-md-4">
-        <p class="bg-light rounded lead text-center p-md-5 m-md-3">Our motto</p>
-      </div>
-    </div>
-    <!-- /.row -->
-    <hr>
-    <div class="row">
-   <h3>Testimonials</h3>
-      <div class="col-md-12 text-center">
-        <div class="carousel " id="carouselTestimonionts"   data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <blockquote class="blockquote">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, consequatur atque ducimus architecto cumque ex iste assumenda quasi nihil?!</p>
-                <footer class="blockquote-footer">
-                  fulanito 1
-                </footer>
-              </blockquote>
-            </div>
-              <!-- /.carousel-fulanito 2 -->
-            <div class="carousel-item ">
-              <blockquote class="blockquote">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur deleniti saepe ratione qui, perferendis culpa at soluta corporis eum dolorum.!</p>
-                <footer class="blockquote-footer">
-                  fulanito 2
-                </footer>
-              </blockquote>
-            </div>
-              <!-- /.carousel-    fulanito 3 -->
-            <div class="carousel-item">
-              <blockquote class="blockquote">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt dignissimos molestiae ad iste, doloribus nobis illum quis rem doloremque fugit.!</p>
-                <footer class="blockquote-footer">
-                  fulanito 3
-                </footer>
-              </blockquote>
-            </div>
-        </div>
-      </div>
-    </div>
+
     <hr>
     <div class="footer col-md-12">
       <p class="text-center lead">wanna get in touch? Email us at ruben@gmail.com </p>
@@ -155,6 +154,7 @@
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
    <script src="bower_components/bootstrap/dist/js/bootstrap.js"> </script>
+
     <script src="bower_components/hammerjs/hammer.js" > </script>
    <script>
   var hammertime = new Hammer($body);
